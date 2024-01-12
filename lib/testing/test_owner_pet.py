@@ -80,3 +80,19 @@ def test_get_sorted_pets():
     pet4 = Pet("Jerry", "reptile", owner)
     
     assert owner.get_sorted_pets() == [pet2, pet1, pet4, pet3]
+
+    # def __init__(self, name, pet_type, owner=None):
+    #     self.name = name
+    #     self.pet_type = pet_type
+    #     self.owner = owner
+    #     Pet.all.append(self)
+
+    # @property
+    # def pet_type(self):
+    #     return self._pet_type
+
+    # @pet_type.setter
+    # def pet_type(self, pet_type):
+    #     if pet_type not in self.PET_TYPES:
+    #         raise Exception('Not a valid pet type.')
+    #     self._pet_type = pet_type
